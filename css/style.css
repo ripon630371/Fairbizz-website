@@ -1,0 +1,380 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700,800,900|Open+Sans:400,600,700,800&display=swap');
+ body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #777;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #202020;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #777;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* button style */
+.btn {
+	-moz-user-select: none;
+	background: #007bff;
+	border: medium none;
+	border-radius: 2px;
+	color: #202020;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 20px 35px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-transform: unset;
+}
+button {cursor: pointer;}
+.btn-round {
+	color: #fff;
+	background: #;
+	background: #08237e;
+	padding: 12px 28px;
+	display: block;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.btn.btn-black {
+	background: #303b41;
+}
+.btn.btn-black:hover {
+	background: #1a1a1a;
+}
+.btn:hover {
+	background: #106fab;
+	color: #fff
+}
+.btn.btn-large {
+	padding: 10px 25px;
+}
+.btn-lg {
+	font-weight: 700;
+	padding: 13px 31px;
+}
+.btn.white-btn:hover {
+	border-color: #ddd;
+	color: #ddd
+}
+.btn.btn-base.btn-link {
+	background: transparent none repeat scroll 0 0;
+	border: 0 none;
+	color: #1696e7;
+	padding: 0;
+	text-decoration: none;
+}
+.btn.btn-base.btn-link:hover {
+	color: #106fab;
+}
+.theme-bg {
+	background: #0668de;
+}
+.gray-bg{
+	background: #f7f7fd;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.breadcrumb > .active {
+	color: #888;
+}
+/*style code here*/
+.header-social-icon{
+	padding-left: 15px;
+}
+.header-social-icon a {
+	color: #959595;
+	margin-left: 18px;
+	font-size: 17px;
+	transition: .5s;
+}
+.header-social-icon a:hover{
+	color: #87C540;
+}
+.social-border{
+	border-left: 1px solid #d1d1d1;
+}
+.welcome-message span{
+	font-size: 14px;
+}
+.welcome-message a {
+	color: #0668DE;
+	font-weight: bold;
+}
+/* logo and cta */
+.single-cta {
+	float: right;
+	margin-left: 90px;
+}
+.single-cta h3 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #007bff;
+	font-weight: 700;
+}
+.single-cta h3 i {
+  margin-right: 10px;
+}
+.single-cta span {
+  font-size: 14px;
+  color: #777777;
+}
+/*menu here*/
+.menu-area {
+	margin-bottom: -76px;
+	z-index: 999;
+	position: relative;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
+}
+.main-menu ul li a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 30px 0px;
+  font-family: font-family: 'Montserrat', sans-serif;
+  text-transform: unset;
+  line-height: 1;
+}
+/*submenu start*/
+.main-menu ul li ul.submenu {
+	position: absolute;
+	background: #fff;
+	top: 100%;
+	left: 0;
+	width: 200px;
+	transition: .5s;
+	opacity: 0;
+	visibility: hidden;
+	border-left: 3px solid #0668de;
+	border-bottom: 3px solid #0668de;
+}
+.main-menu ul li:hover ul.submenu{
+	opacity: 1;
+	visibility: visible;
+}
+.main-menu ul li ul.submenu li {
+	margin: 0;
+	display: block;
+	border-bottom: 1px solid #ddd;
+}
+.main-menu ul li ul.submenu li:last-child{
+	border: 0;
+}
+.main-menu ul li ul.submenu li a {
+	padding: 15px 21px;
+	color: #444;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+.main-menu ul li ul.submenu li:hover > a{
+	color: #007bff;
+}
+.main-menu ul li:hover > a{
+	opacity: .7;
+}
+.main-menu ul li ul.submenu li .submenu{
+	left: 100%;
+	top: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+.main-menu ul li ul.submenu li:hover ul.submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*slider area */
+.slider-hight{
+	min-height: 750px;
+	background-size: cover;
+}
+.slide-content h3 {
+	font-weight: 900;
+	font-size: 72px;
+	color: #fff;
+}
+.slide-content h3 span {
+	color: #007bff;
+}
+.slide-content p {
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 0px;
+}
+/*slider next prev button */
+.slider-active .slick-arrow {
+	position: absolute;
+	top: 50%;
+	border: none;
+	border: 0;
+	padding: 0;
+	left: 50px;
+	background: no-repeat;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 0;
+	transform: rotate(90deg);
+	z-index: 9999;
+}
+.slider-active .slick-next {
+	left: auto;
+	right: 50px;
+}
+.slider-active .slick-arrow i {
+	position: relative;
+	top: 25px;
+	right: -30px;
+	display: inline-block;
+	transform: rotate(270deg);
+}
+.slider-active .slick-next i {
+	position: relative;
+	top: -20px;
+	right: -30px;
+	display: inline-block;
+	transform: rotate(270deg);
+}
