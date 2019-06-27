@@ -240,6 +240,7 @@ button {cursor: pointer;}
 	color: #0668DE;
 	font-weight: bold;
 }
+
 /* logo and cta */
 .single-cta {
 	float: right;
@@ -258,6 +259,7 @@ button {cursor: pointer;}
   font-size: 14px;
   color: #777777;
 }
+
 /*menu here*/
 .menu-area {
 	margin-bottom: -76px;
@@ -326,6 +328,7 @@ button {cursor: pointer;}
 	visibility: visible;
 	opacity: 1;
 }
+
 /*slider area */
 .slider-hight{
 	min-height: 750px;
@@ -344,6 +347,7 @@ button {cursor: pointer;}
 	color: #fff;
 	padding: 10px 0px;
 }
+
 /*slider next prev button */
 .slider-active .slick-arrow {
 	position: absolute;
@@ -377,4 +381,46 @@ button {cursor: pointer;}
 	right: -30px;
 	display: inline-block;
 	transform: rotate(270deg);
+}
+
+/* about us area start*/
+.about-us-title h2 {
+	font-size: 48px;
+	color: #202020;
+	font-weight: 800;
+	display: inline-block;
+}
+.about-us-title h2 span {
+	width: 100px;
+	height: 2px;
+	background: #007bff;
+	display: inline-block;
+}
+.about-us-title h4 {
+	font-size: 30px;
+	color: #828282;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.about-description{}
+.about-description p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+}
+.about-icon-box{}
+.about-icon-box h4 {
+	font-size: 24px;
+	color: #333333;
+	font-weight: 600;
+	padding-top: 30px;
+}
+.about-icon-box p {
+	margin: 0;
+	font-size: 14px;
+	color: #828282;
+	line-height: 1.9;
+	margin-top: 20px;
+	text-align: center;
 }
