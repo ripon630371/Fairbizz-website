@@ -392,7 +392,7 @@ button {cursor: pointer;}
 }
 .about-us-title h2 span {
 	width: 100px;
-	height: 2px;
+	height: 3px;
 	background: #007bff;
 	display: inline-block;
 }
@@ -424,3 +424,10 @@ button {cursor: pointer;}
 	margin-top: 20px;
 	text-align: center;
 }
+/*service area start*/
+.service-p p {
+	font-size: 18px;
+	color: #777777;
+	line-height: 32px;
+}
+
