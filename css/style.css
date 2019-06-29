@@ -383,10 +383,10 @@ button {cursor: pointer;}
 	transform: rotate(270deg);
 }
 /*slider dots deafult css */
-.slick-dots li{
+.dots-style li{
 	display: inline-block;
 }
-.slick-dots li button {
+.dots-style li button {
 	text-indent: -9999px;
 	border: 0;
 	margin-left: 5px;
@@ -394,10 +394,32 @@ button {cursor: pointer;}
 	width: 40px;
 	background: #ffff;
 }
-.slick-dots li.slick-active button{
+.dots-style li.slick-active button{
 	background-color: #007bff;
 }
-.slick-dots {
+.dots-style {
+	text-align: center;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+}
+/*my use display slider code*/
+.slider-active .slick-dots li{
+	display: inline-block;
+}
+.slider-active .slick-dots li button {
+	text-indent: -9999px;
+	border: 0;
+	margin-left: 5px;
+	height: 5px;
+	width: 40px;
+	background: #ffff;
+}
+.slider-active .slick-dots li.slick-active button{
+	background-color: #007bff;
+}
+.slider-active .slick-dots {
 	text-align: center;
 	position: absolute;
 	bottom: 40px;
@@ -465,5 +487,27 @@ button {cursor: pointer;}
 	font-size: 14px;
 	color: #828282;
 	text-align: justify;
+}
+/*my use display slider code service*/
+.service-active .slick-dots li{
+	display: inline-block;
+}
+.service-active .slick-dots li button {
+	text-indent: -9999px;
+	border: 0;
+	margin-left: 5px;
+	height: 5px;
+	width: 40px;
+	background: #ffff;
+}
+.service-active .slick-dots li.slick-active button{
+	background-color: #007bff;
+}
+.service-active .slick-dots {
+	text-align: center;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	right: 0;
 }
 
