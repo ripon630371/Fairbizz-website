@@ -15,7 +15,7 @@ function mainSlider() {
 	});
 	BasicSlider.slick({
 		autoplaySpeed: 2000,
-		dots: false,
+		dots: true,
 		fade: true,
 		arrows: true,
 		slidesToShow: 1,
